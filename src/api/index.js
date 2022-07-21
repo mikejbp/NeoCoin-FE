@@ -1,6 +1,6 @@
 //aqui s la union del front con el backend
 
-export const url = "http://localhost:4000/api";
+export const url = "https://c423tback.herokuapp.com/api";
 
 export const setHeaders = () => {
   const headers = {
