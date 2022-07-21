@@ -1,0 +1,90 @@
+.containerP {
+  display: none;
+}
+
+.containerO {
+  background: #EEEEEE;
+  border-radius: 1em;
+  width: 100vw;
+  padding: 0;
+}
+
+.sectionCoinsCompare {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 3% 5%;
+}
+
+.sectionCoinsCompare span {
+  color:rgb(51 65 85);
+  font-weight: 800;
+}
+
+.sectionHistory {
+  display: flex;
+  justify-content: end;
+  padding: 0 3%;
+  gap: 1%;
+}
+
+.sectionHistory button {
+  background-color: #C4C4C4;
+  width: 15%;
+  border-radius: 0.75em;
+
+}
+
+.sectionHistory span {
+  color:rgb(51 65 85);
+  font-weight: 600;
+}
+
+.sectionPrice {
+  padding: 5% 0 1% 10%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3%;
+}
+
+.sectionPrice h1 {
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 2em;
+  color: #1A69B4;
+}
+
+.sectionPrice span {
+  color: rgb(71, 85, 105);
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.sectionGraphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sectionGraphic div{
+  background-color: rgb(30, 41, 59);
+  margin: 5%; 
+  width: 60%;
+  height: 20%;
+}
+
+@media (min-width: 800px) {
+  .containerP {
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  }
+}
+
+

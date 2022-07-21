@@ -1,0 +1,12 @@
+.sliderCard{
+    background-image: url("../Assets/imgSlider.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media (max-width:800px){
+    .sliderCard{
+        background-size: cover;
+    }
+}

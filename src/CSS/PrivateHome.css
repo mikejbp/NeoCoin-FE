@@ -1,0 +1,59 @@
+.privateHomeTitle {
+  font-size: var(--fs-h2b);
+  color: var(--clr-accent);
+  margin: 0.5em;
+  padding: 0;
+  margin-left: 5%;
+}
+
+.title {
+  font-size: var(--fs-h2b);
+  color: var(--clr-accent);
+  margin: 0.5em;
+  padding: 0;
+  margin-left: 5%;
+}
+
+.privateHomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50%;
+  padding: 1em;
+}
+
+
+.subtitle {
+  text-align: center;
+}
+.containerFirst {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.containerPrivateHome {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 0 10px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 1em;
+}
+.image {
+  display: inline-block;
+}
+.news {
+  color: #0cbcb6;
+}
+
+@media (min-width: 800px) {
+  .privateHomeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+    width: 100%;
+  }
+}

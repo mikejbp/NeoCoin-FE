@@ -1,0 +1,41 @@
+.UserCardHome {
+  background-color: var(--clr-gray);
+  border-radius: 25px;
+  display: inline-block;
+  direction: column;
+  padding: 3%;
+  min-width: 25%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.userCardTitle {
+  font-size: var(--fs-h2);
+}
+
+.userCardContainer {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+}
+
+.userCardPrice {
+  font-size: var(--fs-h2b);
+}
+.userCardVariation {
+  border-radius: 25px;
+  padding-inline: 0.25em;
+  color: var(--clr-light);
+}
+
+.userCardVariationGreen {
+  background-color: #00b300;
+}
+
+.userCardVariationRed {
+  background-color: #dd0000;
+}
+
+.graphic {
+  width: 100%;
+}

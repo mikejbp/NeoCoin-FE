@@ -1,0 +1,56 @@
+.profileCardContainer {
+  background-color: #eee;
+  width: fit-content;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.profileCardWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileImgWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.profileImgWrapper img {
+  transform: scale(0.7);
+  margin-bottom: 45px;
+  margin-left: -25px;
+}
+
+.profileCardForm input {
+  border: hidden;
+  border-bottom: 1.4px solid;
+  border-color: #8d8d8d;
+  background: #eee;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  width: 225px;
+}
+
+.profileFormWrapper button {
+  margin-top: 15px;
+  margin-left: 49px;
+  width: 75px;
+  height: 30px;
+  background: #4a88c4;
+  color: #fdf5e6;
+  border: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.profileFormWrapper button:hover {
+  background: #0369A1;
+}
+
+.profileButtonWrapper {
+  display: flex;
+  justify-content: end;
+}

@@ -1,0 +1,99 @@
+.container1st {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.containerOne {
+  background-color: #EEEEEE;
+  border-radius: 1em;
+  padding: 5%;
+  width: 40%;
+  min-width: 350px;
+}
+
+
+.sectionOne h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 2.3em;
+  color: #4A88C4;
+}
+
+.sectionOne p {
+  text-align: center;
+  margin: 2% 0 5%;
+  line-height: 1em;
+  color: #4A88C4;
+  font-size: 1.2em;
+}
+
+hr {
+  border-top-color: #4A88C4;
+  border-bottom-color: #4A88C4;
+}
+
+.sectionCoinButton {
+  display: flex;
+  justify-content: start;
+  margin: 1em 1.5em 0;
+}
+
+.sectionCoinButton button {
+  display: inline-flex;
+  align-items: center;
+  width: 1.5em;
+}
+.sectionCoinButton h2 {
+  font-weight: 700;
+  margin: 0 0.25em 0;
+}
+
+.sectionLabel label {
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionLabel input {
+  padding: 5%;
+  width: 100%;
+  border-radius: 1em;
+  text-align: right;
+  background: #C4C4C4;
+}
+
+.sectionButtonInvert {
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.sectionButtonInvert button {
+  border-width: 0.25em;
+  width: 2em;
+  border-radius: 3em;
+}
+
+.sectionButtonExchange {
+  display: flex;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+.sectionButtonExchange button {
+  padding: 0.75em 3em;
+  border-radius: 1.5em;
+  font-weight: 600;
+  color: #fdf5e6;
+  margin-top: 1%;
+  background-color: #4A88C4;
+
+}
+
+.swapSubtitle{
+  font-size: 5rem;
+}

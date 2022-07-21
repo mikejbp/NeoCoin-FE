@@ -1,0 +1,62 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} /* Este snippet de código, en lugar de agregarle los paddings a tu box, toma a border box como el tamaño máximo y agrega el padding y los bordes dentro de ese tamaño. Ayuda a eliminar incosistencias de tamaños y ubicación*/
+
+/* Opciones personalizadas de estilo*/
+:root {
+  --fw-reg: 150; /* Peso de la fuente regular. (cuan anchas son las letras)*/
+  --fw-bold: 900; /* Peso de la fuente Bold o negrita. */
+  /*El esquema de colores, es mejor usar variables, por si se decide cambiar el esquema solo hay que cambiarlo acá y no a traves del sitio. Si se usa Tailwind Hay que ver como implementarlo */
+  --clr-light: hsl(0, 0%, 98%); /* Color claro. Personalmente prefiero hsl/hsla para formato de colores.*/
+  --clr-dark: hsl(240, 5%, 11%); /*Color oscuro*/
+  --clr-accent: rgb(74, 135, 196); /* Color principal o acento */
+  --clr-accentLessOpaque: hsla(210, 51%, 53%, 60%);
+  --clr-accentEndPoint: hsl(210, 39%, 59%); /* Color secundario. Aca coloqué una version mas clara del principal, cuando se decidan colores hay que cambiar el esquema */
+  --clr-gray: #EEEEEE;
+
+  /*Estos son las tipografias para pantalla chica. Quedan mejor si se achica un poco la letra para mejorar el responsiveness. Hay que ver si lo usamos */
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h2b: 1.75rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.726); /* Variable general para box shadow.*/
+}
+
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 2.5rem;
+    --fs-h2b: 1.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.25rem;
+  }
+} /* Variables para tipografias de pantallas grandes*/
+
+/* General */
+
+html {
+  scroll-behavior: smooth;
+} /*Si es necesario scrollear, esta linea permite un scroll mas suave, una forma muy facil de resolverlo.*/
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--clr-light);
+  width: 100vw;
+}
+
+* {
+  font-family: 'Inder', sans-serif;
+}
+

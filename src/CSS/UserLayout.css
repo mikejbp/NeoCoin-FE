@@ -1,0 +1,21 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.userLayoutNavBar{ 
+    margin-left: 15em;
+}
+@media screen and (max-width: 800px) {
+    .userLayoutNavBar{
+        margin-left: 0;
+        width: 100vw;
+    }
+    .userLayoutChildren{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        margin-top: 4em ;
+    }
+
+  }

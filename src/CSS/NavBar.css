@@ -1,0 +1,86 @@
+.nav {
+    z-index: 20;
+    background-color: var(--clr-light);
+    position: relative;
+}
+
+.navDiv{
+    z-index: 20;
+}
+
+.navDiv img{
+    margin-top: 0.5em;
+}
+.navBar-logoSubtitle{
+    padding-right: 3em;
+    margin-right: 0;
+}
+
+.navLink {
+    padding-inline: 0;
+    margin-inline: 0.6em;
+    font-size: var(--fs-h3);
+}
+
+.moon {
+height: 50;
+}
+
+.navSmallScreenDiv{
+    display: hidden;
+}
+
+
+@media (max-width:800px){
+    .screenNav {
+        width: 99vw;
+        height: 100vh;
+        position: fixed;
+        background-color: var(--clr-light);
+        transition: all 1s ease-in-out;
+        z-index:1;
+    }
+
+    .navSpan{
+        position:fixed;
+        z-index: 20;
+        padding: 0.7em;
+    }
+
+
+    .nav{
+        width: 100vw;
+        background-color: var(--clr-light);
+        position: fixed;
+        
+        
+    }
+    .navLink {
+        font-size: var(--fs-h1);
+    }
+
+    .navDiv{
+        background-color: var(--clr-light);
+        position: sticky;
+        box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.226);
+        padding-bottom: 0.5em;
+        
+        
+    }
+
+    .navButton {
+        font-size: var(--fs-h1);
+        margin-bottom: 1em;
+    }
+    .navAbierto{
+        transform: translateY(0);
+    }
+
+    .navCerrado{
+        transform: translateY(-110%);
+    }
+
+    .navSmallScreenDiv{
+        height: 3em;
+    }
+}

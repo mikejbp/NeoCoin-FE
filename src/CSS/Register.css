@@ -1,0 +1,78 @@
+
+
+.formError {
+  font-size: var(--fs-h3b);
+  padding-bottom: 0;
+}
+
+.registerField {
+  padding-top: 0;
+}
+
+.registerMain {
+    margin: auto;
+    width: 75vw;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: #EEEEEE;   
+    color: #8D8D8D; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    border-radius: 25px;
+    padding: 2em;
+}
+
+.registerTitle {
+    color: var(--clr-accent);
+    font-size: var(--fs-h2);
+
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.registerForm input{
+    border-bottom: #8D8D8D solid;
+    width: 75%;
+    text-align: left;
+    font-size: var(--fs-h2b);
+    background-color:transparent ;
+}
+
+
+
+.registerButton{
+    cursor: pointer;
+    padding: 1em 2em;
+    background-color: var(--clr-accent); 
+    color: var(--clr-light);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out, box-shadow 400ms ease-in-out;
+    border-radius: 25px; 
+    margin: auto;
+  }
+  
+  .registerButton:hover {
+    transform: scale(1.1);
+    box-shadow: var(--bs);
+  
+  }
+  
+  .registerButton:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+    z-index: 30;
+    border-radius: 25px;
+  }
+  
+

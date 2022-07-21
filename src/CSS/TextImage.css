@@ -1,0 +1,89 @@
+
+
+/*TextImage Component Style*/
+
+.textImage--button{
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: var(--clr-accent); 
+    color: var(--clr-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out, box-shadow 400ms ease-in-out;
+    border-radius: 25px; 
+}
+
+.textImage--button:hover {
+    transform: scale(1.1);
+    box-shadow: var(--bs);
+
+}
+
+.textImage--button:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+    z-index: 30;
+    border-radius: 25px;
+}
+
+.textImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:0;
+    padding: 0.5em;
+    position: relative;
+    }
+
+.textImage--imgRight{
+    flex-direction: column-reverse;
+}
+
+.textImage--textButton{
+    text-align: center;
+    padding: 0.5em;
+    vertical-align: center;
+    margin-bottom: 2em;
+  }
+
+.textImage--text {
+    color: var(--clr-accent);
+    padding:1em;
+    font-size: var(--fs-h2);
+  }
+  .textImage--img {
+    justify-content: space-around;
+    padding: 1em;
+    width: 60vw;
+    color: blue;
+  }
+
+@media (min-width:800px){
+.textImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:0;
+    padding: 0.5em;
+  }
+  
+  .textImage--img {
+    width: 50vw;
+  }
+  
+  .textImage--textButton{
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+
+
+
+
+  
+}

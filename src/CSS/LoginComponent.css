@@ -1,0 +1,111 @@
+.loginComponentSize {
+  min-height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  display: flex;
+  background-color: rgb(238,238,238);
+  border-radius: 15px;
+}
+
+.loginWrapper {
+  width: 505px;
+  height: 275px;
+  background: linear-gradient(108deg, rgba(238,238,238,1) 0%, rgba(74,136,196,1) 0%, rgba(74,136,196,1) 50%, rgba(0,5,9,0) 52%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .loginWrapper {
+    width: 250px;
+    height: 300px;
+    border-bottom: 10px solid #4a88c4;
+    border-top: 10px solid #4a88c4;
+    background: rgb(238,238,238);
+  }
+}
+
+.loginImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .loginImageWrapper {
+    display: none;
+  }
+}
+
+.loginImageWrapper img {
+  z-index: 2;
+  height: auto;
+  transform: scale(0.85);
+  margin-right: 30px;
+}
+
+.loginFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.loginForm h1 {
+  font-size: 1.25rem;
+  color: #1a69b4;
+  font-weight: lighter;
+  margin-left: 60px;
+}
+
+.loginFormUser {
+  margin-top: 15px;
+}
+
+.loginFormPass {
+  margin-top: 20px;
+}
+
+.loginForm input {
+  border: hidden;
+  border-bottom: 1.4px solid;
+  border-color: #8d8d8d;
+  background: #eee;
+  margin-right: 60px;
+  word-wrap: break-word;
+}
+
+.loginForm button {
+  margin-top: 40px;
+  margin-left: 49px;
+  width: 76px;
+  height: 30px;
+  background: #4a88c4;
+  color: #fdf5e6;
+  border: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  background: #0369a1;
+}
+
+.formError {
+  font-size: 7px;
+  color: red;
+}
+
+.register-nav {
+  color: #0369a1;
+}

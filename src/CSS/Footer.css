@@ -1,0 +1,39 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #1a69b4;
+  font-size: 14px;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footerImageWrapper {
+  height: 60px;
+}
+
+.footerImageWrapper img {
+  margin: 5%;
+  max-height: 80%;
+}
+
+.socialWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.socialWrapper h2 {
+  display: none;
+  font-size: 1.5em;
+}
+
+@media (min-width: 640px) {
+  .socialWrapper h2 {
+    display: block;
+  }
+}
