@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Nombre del Proyecto: **NeoCoin Exchange**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Descripción del Proyecto:**
+<p align="justify">&nbsp;&nbsp;Nuestro proyecto se trata de una plataforma web que ofrece el servicio de una exchange de criptomonedas. Básicamente, un sitio donde se pueda intercambiar criptodivisas, la cual presenta diversas funcionalidades que van a permitir al usuario realizar varias tareas dentro de la misma. Como por ejemplo: ver las cotizaciones de las criptomonedas en tiempo real, intercambio de criptomonedas (Swap), analizar mediante gráficos las 3 monedas que estan siendo tendencia, wallet o billetera virtual en donde el usuario puede ver la tenencia de criptomonedas.</p>
 
-## Available Scripts
+## **Stack/Tecnologías**
 
-In the project directory, you can run:
+### **FrontEnd**
+* **JavaScript** &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="20" height="20" style="max-width: 100%;"> </a>
+* **React js** &nbsp; <a href="https://reactjs.org/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactjs" width="30" height="30" style="max-width: 100%;"> </a>
+* **Redux** &nbsp; <a href="https://es.redux.js.org/" rel="nofollow"> <img src="https://raw.githubusercontent.com/reduxjs/redux/7f1ada88f585e7ac549189a58ffe4e7244cb4e32/logo/logo.svg" alt="redux" width="30" height="30" style="max-width: 100%;"> </a>
+* **Content API** &nbsp; <a href="https://developers.google.com/shopping-content/guides/quickstart" rel="nofollow"> <img src="https://www.svgrepo.com/show/10073/api-page.svg" alt="content-api" width="30" height="30" style="max-width: 100%;"> </a>
+* **HTML5** &nbsp; <a href="https://www.w3.org/html/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30" style="max-width: 100%;"> </a>
+* **CSS3** &nbsp; <a href="https://www.w3schools.com/css/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30" style="max-width: 100%;"> </a>
+* **Tailwind CSS** &nbsp; <a href="https://tailwindcss.com/" rel="nofollow"> <img src="https://camo.githubusercontent.com/5734d0669fe22ce04a1cb989a156cd32c379875f6bca56d5210c9432824856d9/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7461696c77696e646373732f7461696c77696e646373732d69636f6e2e737667" alt="tailwind" width="30" height="30" data-canonical-src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" style="max-width: 100%;"> </a>
+* **Chakra UI** &nbsp; <a href="https://chakra-ui.com/" rel="nofollow"> <img src="https://bestofjs.org/logos/chakra-ui.dark.svg" alt="chakra-ui" width="20" height="20" style="max-width: 100%;"> </a>
+<br>
 
-### `npm start`
+### **BackEnd**
+* **Node.js**&nbsp; <a href="https://nodejs.org" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" style="max-width: 100%;"> </a>
+* **Express.js**&nbsp;  <a href="https://expressjs.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" style="max-width: 100%;"> </a>
+* **Mongo DB**  <a href="https://www.mongodb.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" style="max-width: 100%;"> </a>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **UI/UX**
+* **Figma**&nbsp; <a href="https://www.figma.com/" rel="nofollow"> <img src="https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667" alt="figma" width="20" height="20" data-canonical-src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="max-width: 100%;"> </a>
+<br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## **Participantes del grupo:**
+* Pablo Vieyra <img alt='bandera-argentina' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png?20120912082242' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/pablo-vieyra/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/pablo-vieyra/" height="20" width="20" style="max-width: 100%;"></a>
+&nbsp;<a href="https://github.com/pabloVieyra" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@pabloVieyra" height="30" width="30" style="max-width: 100%;"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Pedro Acosta <img alt='bandera-argentina' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png?20120912082242' width="15" height="10" style="max-width: 100%;" /> <img alt='bandera-brazil' src='https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/pevacosta/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/pevacosta/" height="20" width="20" style="max-width: 100%;"></a>&nbsp;<a href="https://github.com/Yandalar" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@Yandalar" height="30" width="30" style="max-width: 100%;"></a>
 
-### `npm run build`
+* Martin Castro <img alt='bandera-argentina' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png?20120912082242' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/m-l-castro/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/m-l-castro/" height="20" width="20" style="max-width: 100%;"></a>&nbsp;<a href="https://github.com/mlcas" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@mlcas" height="30" width="30" style="max-width: 100%;"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Miguel Briceño <img alt='bandera-venezuela' src='https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/miguelbricenodev/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/miguelbricenodev/" height="20" width="20" style="max-width: 100%;"></a>&nbsp;<a href="https://github.com/mikejbp" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@mikejbp" height="30" width="30" style="max-width: 100%;"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Julian Marc <img alt='bandera-argentina' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png?20120912082242' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/julianmarc/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/eliseodev/" height="20" width="20" style="max-width: 100%;"></a>&nbsp;<a href="https://github.com/R4vage" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@R4vage" height="30" width="30" style="max-width: 100%;"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Edu Falcon Mestanza <img alt='bandera-peru' src='https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg' width="15" height="10" style="max-width: 100%;" /> <br>
+<a href="https://www.linkedin.com/in/eliseodev/" rel="nofollow"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/eliseodev/" height="20" width="20" style="max-width: 100%;"></a>&nbsp;<a href="https://github.com/Eliseonop" rel="nofollow"><img align="center" src="https://animejs.com/documentation/assets/img/icons/icon-github.svg" alt="@Eliseonop" height="30" width="30" style="max-width: 100%;"></a>
+<br>
+<br>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Referencias**<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Documento del proyecto:**&nbsp;https://docs.google.com/document/d/1Wc5H3KUHAq3n-_TFHaVPhkStHifEkwW8eEhbAXxkhnM/edit?pli=1 <br>
+**Jira:**&nbsp;https://c4-g23-t.atlassian.net/jira/software/projects/CE/boards/1/roadmap <br>
+Deploy: https://neocoin.netlify.app/
